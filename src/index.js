@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Planet from './components/Planet';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Planet />
   </React.StrictMode>,
   document.getElementById('root')
 );
